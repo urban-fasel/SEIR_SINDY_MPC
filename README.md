@@ -10,8 +10,8 @@ We apply the recent sparse identification of nonlinear dynamics (SINDy) to MPC a
 In the tutorial article LINK, we also review the SINDy and MPC methods, and demonstrate the tutorial with the main code snippets to run the SINDy-MPC algorithm.
 
 To run the code: Code/main.m
-  - select the system identification method: DMD or SINDy
-  - select if the MPC is run with or without constraint
+  - select the system identification method: DMD or SINDy (line 16)
+  - select if the MPC is run with or without constraint (line 20)
   
-We encourage the user to play around with the choose, choose different forcing functions to train the model, change the model parameters, add compartments to the SEIR model, run different prediction and horizon lengths for the MPC etc.
+We encourage the user to play around with the code, choose different forcing functions to train the model, change the SEIR and SINDy model parameters, add compartments to the SEIR model, run different prediction and control horizons for the MPC etc.
 
