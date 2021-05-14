@@ -7,7 +7,7 @@ The method was first introduced by Kaiser et al.:
 
 We apply the recent sparse identification of nonlinear dynamics (SINDy) to MPC and provide a tutorial on the control of the spread of an infectious disease using an identified SEIR model. 
 
-In the tutorial article LINK, we also review the SINDy and MPC methods, and demonstrate the tutorial with the main code snippets to run the SINDy-MPC algorithm.
+In the tutorial article (link will follow), we also review the SINDy and MPC methods, and demonstrate the tutorial with the main code snippets to run the SINDy-MPC algorithm.
 
 To run the code: Code/main.m
   - select the system identification method: DMD or SINDy (line 16)
