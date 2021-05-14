@@ -1,14 +1,12 @@
-function J = evalObjectiveFCN(u,x,xref,Q,R,Ru,p)
-% [J,Js,Ju]
+function J = evaluateObjectiveFCN(u,x,xref,Q,R,Ru,p)
 %% Cost function of nonlinear MPC for SEIR model
 %
 % Inputs:
 %   u:      optimization variable, from time k to time k+N-1 
 %   x:      current state at time k
-%   Ts:     controller sample time
-%   N:      prediction horizon
 %   xref:   state references, constant from time k+1 to k+N
-%   u0:     previous controller output at time k-1
+%   Q,R,Ru: MPC cost function weights 
+%   p:      model parameters
 %
 % Output:
 %   J:      objective function cost
