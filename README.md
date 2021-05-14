@@ -1,6 +1,6 @@
 # SEIR_SINDY_MPC
 
-With this tutorial we want to provide the tools to apply data driven system identification methods to a model predictive control (MPC) problem.
+With this tutorial (article will follow) we want to provide the tools to apply data driven system identification methods to a model predictive control (MPC) problem.
 The method was first introduced by Kaiser et al.:
   - github: https://github.com/eurika-kaiser/SINDY-MPC
   - paper: https://arxiv.org/abs/1711.05501
